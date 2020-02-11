@@ -401,13 +401,6 @@
         }
     </style>
     <script>
-        var _hmt = _hmt || [];
-            (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?8f12577fe5993c29ea34a23352cd3953";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
-        })();
         function createCORSRequest(method, url, timeout) {
             let xhr = new XMLHttpRequest();
             if ('withCredentials' in xhr) {
@@ -1341,5 +1334,13 @@
         </div>
     </div>
 </body>
-
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?8f12577fe5993c29ea34a23352cd3953";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>    
 </html>
